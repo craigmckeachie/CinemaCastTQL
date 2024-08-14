@@ -39,7 +39,12 @@ function Header() {
               data-bs-toggle="dropdown"
               aria-expanded="false"
             >
-             
+              <div
+                style={{ width: "3rem", height: "3rem" }}
+                className="d-flex bg-primary-subtle fs-5 text-secondary align-items-center justify-content-center rounded-circle me-2"
+              >
+                CM
+              </div>
               <strong>James Roday</strong>
             </a>
             <ul className="dropdown-menu text-small shadow">

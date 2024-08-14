@@ -36,7 +36,7 @@ function NavPanel() {
               height={16}
               fill="#007AFF"
             >
-              <use xlinkHref="./images/bootstrap-icons.svg#grid" />
+              <use xlinkHref={`${bootstrapIcons}#grid`} />
             </svg>
             Products
           </a>

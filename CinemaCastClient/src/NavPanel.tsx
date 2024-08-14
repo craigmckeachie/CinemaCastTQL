@@ -1,4 +1,5 @@
 import bootstrapIcons from "bootstrap-icons/bootstrap-icons.svg";
+import { NavLink } from "react-router-dom";
 
 function NavPanel() {
   return (
@@ -41,7 +42,7 @@ function NavPanel() {
           </a>
         </li>
         <li>
-          <a href="vendors.html" className="nav-link active">
+          <NavLink to="/vendors" className="nav-link">
             <svg
               className="bi pe-none me-2"
               width={16}
@@ -51,7 +52,7 @@ function NavPanel() {
               <use xlinkHref="./images/bootstrap-icons.svg#building" />
             </svg>
             Vendors
-          </a>
+          </NavLink>
         </li>
         <li>
           <a href="users.html" className="nav-link link-body-emphasis">
